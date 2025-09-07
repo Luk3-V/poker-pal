@@ -1,14 +1,13 @@
-# Poker Pal - Hand History Parser
+# Poker Pal - Hand History Report Generator
 
-A simple TypeScript application that uses the `@poker-apprentice/hand-history-parser` library to parse poker hand history files & `@poker-apprentice/hand-history-analyzer` to analayze specific stats.
-
-## Features
-
-- Automatically scans the configured directory for hand history files
-- Parses each file and generates basic reports
+A simple CLI application that uses the `@poker-apprentice/hand-history-parser` & `@poker-apprentice/hand-history-analyzer` libraries to parse poker hand history files, analayze specific stats & generate reports.
 
 ## Configuration
 
 Edit `config.json` to change:
 - `handHistoryDirectory`: Path to your hand history files
 - `supportedExtensions`: File extensions to look for
+
+## Supported Poker Sites
+
+- Bovada, Bodog, Ignition
